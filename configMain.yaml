@@ -1,0 +1,248 @@
+Weight: False
+
+BBC:
+  View_num: 4
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001]
+  reg_coef: [0.01,0.001,0.0001]
+  hid_units: [256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+  DEC_nb_epochs: 30
+
+BBCSport:
+  View_num: 2
+  lr: [0.001]
+  l2_coef: [0.00001]
+  reg_coef: [0.0001]
+  hid_units: [512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+  DEC_nb_epochs: 30
+
+
+
+
+small_Reuters:
+  View_num: 5
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+Reuters:
+  View_num: 5
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+
+MSRCv1:
+  View_num: 5
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64]
+  sc: 3
+  nb_epochs: 500
+  norm: False
+  
+Scene-15:
+  View_num: 3
+  lr: [0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [8]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+Caltech10120:
+  View_num: 6
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+RGBD:
+  View_num: 2
+  lr: [0.0001]
+  l2_coef: [0.001]
+  reg_coef: [0.00001]
+  hid_units: [512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+  DEC_nb_epochs: 30
+
+LandUse-21:
+  View_num: 3
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [128]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+#  lr: [ 0.001 ]
+#  l2_coef: [ 0.0005 ]
+#  reg_coef: [ 0.1 ]
+#  hid_units: [ 64 ] #64
+#  isMeanOrCat: 'Cat'
+#  sc: 10
+#  nb_epochs: 500
+#  isAttn: False
+#  norm: False
+
+
+
+
+
+3sources:
+  View_num: 3
+  lr: [0.001]
+  l2_coef: [0.00001]
+  reg_coef: [0.00001]
+  hid_units: [128]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+  DEC_nb_epochs: 30
+
+
+HW:
+  View_num: 6
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [32,64,256,512]
+  sc: 10
+  nb_epochs: 5000
+  norm: False
+
+small_NUS:
+  View_num: 5
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+100leaves:
+  View_num: 3
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+NUSWIDEOBJ:
+  View_num: 5
+  lr: [0.0001]
+  l2_coef: [0.00001]
+  reg_coef: [0.001]
+  hid_units: [512]
+  sc: 10
+  nb_epochs: 1
+  norm: False
+
+ALOI_100:
+  View_num: 4
+  lr: [ 0.001,0.0001,0.00001 ]
+  l2_coef: [ 0.01,0.001,0.0001,0.00001 ]
+  reg_coef: [ 0.01,0.001,0.0001,0.00001 ]
+  hid_units: [16]
+  sc: 3
+  nb_epochs: 1
+  norm: False
+
+yale_mtv:
+  View_num: 3
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+#======================
+
+movies617:
+  View_num: 2
+  lr: [0.01]
+  l2_coef: [0.01]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [512]
+  sc: 10
+  nb_epochs: 1000
+  norm: False
+
+
+
+ORL_mtv:
+  View_num: 3
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+flower17:
+  View_num: 7
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+Caltech101-7:
+  View_num: 6
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+Caltech101-all:
+  View_num: 6
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+
+citeseer:
+  View_num: 2
+  lr: [0.01,0.001,0.0001]
+  l2_coef: [0.01,0.001,0.0001,0.00001]
+  reg_coef: [0.01,0.001,0.0001,0.00001]
+  hid_units: [64,128,256,512]
+  sc: 10
+  nb_epochs: 500
+  norm: False
+

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5447682-e435-432b-a9bc-32d0eb95b432" name="Default Changelist" comment="添加对比聚类CC">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/DGI/3sources/N_3sources_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/DGI/3sources/N_3sources_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/3sources/N_3sources_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/3sources/N_3sources_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/BBC/N_BBC_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/BBC/N_BBC_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/BBCSport/N_BBCSport_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/BBCSport/N_BBCSport_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/LandUse-21/N_LandUse-21_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/LandUse-21/N_LandUse-21_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/MSRCv1/N_MSRCv1_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/MSRCv1/N_MSRCv1_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGI/small_Reuters/N_small_Reuters_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGI/small_Reuters/N_small_Reuters_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGICCM/BBC/N_BBC_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGICCM/BBC/N_BBC_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/3sources/N_3sources_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/3sources/N_3sources_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/BBC/N_BBC_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/BBC/N_BBC_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/BBCSport/N_BBCSport_Mean_False_sc.10.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baseline/Mean/DMGIDEC/BBCSport/N_BBCSport_Mean_False_sc.10.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configMain.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configMain.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DGI.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/DGI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DMGI.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/DMGI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DMGIAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/DMGIAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DMGIDEC_DFCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/DMGIDEC_DFCN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runDGI.py" beforeDir="false" afterPath="$PROJECT_DIR$/runDGI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGI.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGIAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGIAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGICC.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGICC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGIDEC.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGIDEC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGIDEC_DFCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGIDEC_DFCN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGIDEC_DFCNSingle.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGIDEC_DFCNSingle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMainDMGINoCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMainDMGINoCS.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20MjblRCz8SUEM3MRC5fBAu2lwP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database/RGBD" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\SelfCode\DGIIntegrate\Database\RGBD" />
+      <recent name="H:\SelfCode\DGIIntegrate" />
+      <recent name="H:\SelfCode\DGIIntegrate\models" />
+      <recent name="H:\SelfCode\DGIIntegrate\utils" />
+      <recent name="H:\SelfCode\DGIIntegrate\final_model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\SelfCode\DGIIntegrate\final_model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.runMainDMGIAE">
+    <configuration name="runMainDMGI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DGIIntegrate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMainDMGI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runMainDMGIAE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DGIIntegrate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMainDMGIAE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runMainDMGICC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DGIIntegrate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMainDMGICC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runMainDMGIDEC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DGIIntegrate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMainDMGIDEC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runMainDMGIDEC_DFCN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DGIIntegrate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMainDMGIDEC_DFCN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.runMainDMGIAE" />
+        <item itemvalue="Python.runMainDMGI" />
+        <item itemvalue="Python.runMainDMGIDEC_DFCN" />
+        <item itemvalue="Python.runMainDMGIDEC" />
+        <item itemvalue="Python.runMainDMGICC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5447682-e435-432b-a9bc-32d0eb95b432" name="Default Changelist" comment="" />
+      <created>1635861425226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635861425226</updated>
+      <workItem from="1635861426948" duration="21862000" />
+      <workItem from="1636016271317" duration="28012000" />
+      <workItem from="1636175376764" duration="90896000" />
+      <workItem from="1636681222805" duration="21368000" />
+      <workItem from="1636792051138" duration="5191000" />
+      <workItem from="1636857009289" duration="1303000" />
+      <workItem from="1636858341737" duration="72607000" />
+      <workItem from="1637148325281" duration="10399000" />
+      <workItem from="1637212265806" duration="5590000" />
+      <workItem from="1637221616752" duration="739000" />
+      <workItem from="1637231511851" duration="21185000" />
+      <workItem from="1637491748578" duration="1371000" />
+      <workItem from="1637499163296" duration="275000" />
+      <workItem from="1637499481203" duration="3462000" />
+      <workItem from="1637555184051" duration="70000" />
+      <workItem from="1637566912681" duration="3017000" />
+      <workItem from="1637589752691" duration="1179000" />
+      <workItem from="1637633806959" duration="1562000" />
+    </task>
+    <task id="LOCAL-00001" summary="十一月七日完成代码。">
+      <created>1636251516475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636251516475</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新DMGIDEC,增加迭代次数参数。">
+      <created>1636372650882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636372650882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新了DFCN到模型中，虽然效果不是很好。">
+      <created>1636711664111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636711664111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="reuters&#10;模型保存不到最好的指标">
+      <created>1636857050745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636857050745</updated>
+    </task>
+    <task id="LOCAL-00005" summary="保存了mean的方式的实验结果">
+      <created>1637061768019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637061768019</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加对比聚类CC">
+      <created>1637233156713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637233156713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="435d3dfe-56c1-42a1-b66e-347640e64b27">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="435d3dfe-56c1-42a1-b66e-347640e64b27" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="十一月七日完成代码。" />
+    <MESSAGE value="更新DMGIDEC,增加迭代次数参数。" />
+    <MESSAGE value="更新了DFCN到模型中，虽然效果不是很好。" />
+    <MESSAGE value="reuters&#10;模型保存不到最好的指标" />
+    <MESSAGE value="保存了mean的方式的实验结果" />
+    <MESSAGE value="添加对比聚类CC" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加对比聚类CC" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDECSUP.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DGDEC.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIRCGraph.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC_DFCN.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/runMainDMGIDEC_Cat.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/DMGIDEC.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainMLTuneAllparameter.coverage" NAME="runMainMLTuneAllparameter Coverage Results" MODIFIED="1636178680542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIDECSUP.coverage" NAME="runMainDMGIDECSUP Coverage Results" MODIFIED="1636692795601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$DMGI.coverage" NAME="DMGI Coverage Results" MODIFIED="1637046533070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$DMGIRCGraph.coverage" NAME="DMGIRCGraph Coverage Results" MODIFIED="1636706495580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGI.coverage" NAME="runMainDMGI Coverage Results" MODIFIED="1637501662842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGICCM.coverage" NAME="runMainDMGICCM Coverage Results" MODIFIED="1636977359424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runDGIAE.coverage" NAME="runDGIAE Coverage Results" MODIFIED="1636376131672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGI_Each.coverage" NAME="runMainDMGI_Each Coverage Results" MODIFIED="1637061970133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGI_Cat.coverage" NAME="runMainDMGI_Cat Coverage Results" MODIFIED="1637061686361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIDEC_DFCN.coverage" NAME="runMainDMGIDEC_DFCN Coverage Results" MODIFIED="1637500658703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIDEC.coverage" NAME="runMainDMGIDEC Coverage Results" MODIFIED="1637500285312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIDEC_DFCNSingle.coverage" NAME="runMainDMGIDEC_DFCNSingle Coverage Results" MODIFIED="1636977459612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGINoCS.coverage" NAME="runMainDMGINoCS Coverage Results" MODIFIED="1637462656376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runHDI.coverage" NAME="runHDI Coverage Results" MODIFIED="1636168813093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIRCGraph.coverage" NAME="runMainDMGIRCGraph Coverage Results" MODIFIED="1636710742905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runDGIDec.coverage" NAME="runDGIDec Coverage Results" MODIFIED="1636378777129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runDGI.coverage" NAME="runDGI Coverage Results" MODIFIED="1637462449021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGINoL2.coverage" NAME="runMainDMGINoL2 Coverage Results" MODIFIED="1636197779460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGICC.coverage" NAME="runMainDMGICC Coverage Results" MODIFIED="1637481798046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIAE.coverage" NAME="runMainDMGIAE Coverage Results" MODIFIED="1637634309699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGIIntegrate$runMainDMGIDEC_Cat.coverage" NAME="runMainDMGIDEC_Cat Coverage Results" MODIFIED="1637063623856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
